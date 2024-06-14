@@ -100,7 +100,7 @@ public class Principal {
                                     Eletronico eletronico = new Eletronico();
                                     System.out.println("Digite o número do eletrônico que deseja adicionar:\n" +
                                             "1-Xbox\n" +
-                                            "2-Fone de ouvido\n" +
+                                            "2-Fone de Ouvido\n" +
                                             "3-Mouse");
                                     try {
                                         numProduto = Integer.parseInt(sc.nextLine());
@@ -116,9 +116,9 @@ public class Principal {
                                 case "2":
                                     Roupa roupa = new Roupa();
                                     System.out.println("Digite o número da roupa que deseja adicionar:\n" +
-                                            "1-Jaqueta de couro preta M\n" +
-                                            "2-Bermuda azul G\n" +
-                                            "3-Regata lilás P");
+                                            "1-Jaqueta de Couro Preta M\n" +
+                                            "2-Bermuda Azul G\n" +
+                                            "3-Regata Lilás P");
                                     try {
                                         numProduto = Integer.parseInt(sc.nextLine());
                                         c1.adicionarItem(roupas.get(numProduto - 1));
@@ -132,10 +132,10 @@ public class Principal {
                                     break;
                                 case "3":
                                     Alimento alimento = new Alimento();
-                                    System.out.println("Digite o número da roupa que deseja adicionar:\n" +
-                                            "1-Pizza de queijo\n" +
+                                    System.out.println("Digite o número do alimento que deseja adicionar:\n" +
+                                            "1-Pizza de Queijo\n" +
                                             "2-Arroz\n" +
-                                            "3-Suco de uva");
+                                            "3-Suco de Uva");
                                     try {
                                         numProduto = Integer.parseInt(sc.nextLine());
                                         c1.adicionarItem(roupas.get(numProduto - 1));
@@ -158,7 +158,7 @@ public class Principal {
                                     Eletronico eletronico = new Eletronico();
                                     System.out.println("Digite o número do eletrônico que deseja adicionar:\n" +
                                             "1-Xbox\n" +
-                                            "2-Fone de ouvido\n" +
+                                            "2-Fone de Ouvido\n" +
                                             "3-Mouse");
                                     try {
                                         numProduto = Integer.parseInt(sc.nextLine());
@@ -174,9 +174,9 @@ public class Principal {
                                 case "2":
                                     Roupa roupa = new Roupa();
                                     System.out.println("Digite o número da roupa que deseja adicionar:\n" +
-                                            "1-Jaqueta de couro preta M\n" +
-                                            "2-Bermuda azul G\n" +
-                                            "3-Regata lilás P");
+                                            "1-Jaqueta de Couro Preta M\n" +
+                                            "2-Bermuda Azul G\n" +
+                                            "3-Regata Lilás P");
                                     try {
                                         numProduto = Integer.parseInt(sc.nextLine());
                                         c2.adicionarItem(roupas.get(numProduto - 1));
@@ -190,10 +190,10 @@ public class Principal {
                                     break;
                                 case "3":
                                     Alimento alimento = new Alimento();
-                                    System.out.println("Digite o número da roupa que deseja adicionar:\n" +
-                                            "1-Pizza de queijo\n" +
+                                    System.out.println("Digite o número do alimento que deseja adicionar:\n" +
+                                            "1-Pizza de Queijo\n" +
                                             "2-Arroz\n" +
-                                            "3-Suco de uva");
+                                            "3-Suco de Uva");
                                     try {
                                         numProduto = Integer.parseInt(sc.nextLine());
                                         c2.adicionarItem(alimentos.get(numProduto - 1));
